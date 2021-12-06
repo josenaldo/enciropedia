@@ -8,18 +8,16 @@
     <title>Welcome to Jekyll!</title>
     <meta name="description" content="A enciclopédia do Cirão!">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" crossorigin="anonymous"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC">
-
     <!-- Font Awesome icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
     integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h"
     crossorigin="anonymous">
 
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
     <!-- Defaul Aplication CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <link rel="canonical" href="https://enciropedia.com.br/jekyll/update/2021/12/05/welcome-to-jekyll/">
 
@@ -51,7 +49,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Welcome to Jekyll!" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"Welcome to Jekyll!","description":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title.MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: def print_hi(name) puts &quot;Hi, #{name}&quot; end print_hi(&#39;Tom&#39;) #=&gt; prints &#39;Hi, Tom&#39; to STDOUT. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.","dateModified":"2021-12-05T19:00:48-06:00","datePublished":"2021-12-05T19:00:48-06:00","url":"https://enciropedia.com.br/jekyll/update/2021/12/05/welcome-to-jekyll/","mainEntityOfPage":{"@type":"WebPage","@id":"https://enciropedia.com.br/jekyll/update/2021/12/05/welcome-to-jekyll/"},"@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","description":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title.MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: def print_hi(name) puts &quot;Hi, #{name}&quot; end print_hi(&#39;Tom&#39;) #=&gt; prints &#39;Hi, Tom&#39; to STDOUT. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.","url":"https://enciropedia.com.br/jekyll/update/2021/12/05/welcome-to-jekyll/","headline":"Welcome to Jekyll!","dateModified":"2021-12-05T19:00:48-06:00","datePublished":"2021-12-05T19:00:48-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://enciropedia.com.br/jekyll/update/2021/12/05/welcome-to-jekyll/"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -62,9 +60,9 @@
 
 <body>
     <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-ligh">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-        <div class="container-fluid">
+        <div class="container px-5">
             <a class="navbar-brand" href="/">
                 Enciropedia
             </a>
@@ -149,24 +147,24 @@
 
     </main>
 
-    <footer class="page-footer" id="sticky-footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm">
-				<p class="social-title">Encontre esse projeto no Github</p>
+    <footer class="page-footer bg-dark py-4 mt-auto" id="sticky-footer">
+	<div class="container px-5">
+		<div class="row align-items-center justify-content-between flex-column flex-sm-row">
+			<div class="col-sm text-center">
+				<p class="social-title text-light">Encontre esse projeto no Github</p>
 				<div class="social">
 					<ul>
 						<li>
-							<a href="https://github.com/josenaldo/enciropedia/" target="_new">
-								<i class="fab fa-github fa-4x"></i>
+							<a class="link-light" href="https://github.com/josenaldo/enciropedia/" target="_new">
+								<i class="fab fa-github fa-5x"></i>
 							</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 
-			<div class="col-sm">
-				<p class="social-title">Patrocine esse projeto</p>
+			<div class="col-sm text-white text-center">
+				<p class="social-title text-light">Patrocine esse projeto</p>
 				<div class="social-link">
 					<p>PIX: </p>
 					<p>
@@ -175,71 +173,66 @@
 
 					<p>Picpay</p>
 					<p>
-						<a href="https://picpay.me/josenaldo" target="_new">
+						<a class="link-light" href="https://picpay.me/josenaldo" target="_new">
 							@josenaldo
 						</a>
 					</p>
 				</div>
 			</div>
 
-			<div class="col-sm">
-				<p class="social-title">Social Media</p>
-				<div class="social">
-					<ul>
-
+			<div class="col-sm text-white text-center">
+				<p class="social-title">Quer falar comigo?</p>
+				<div class="link-light social">
+					<ul class="social-link">
 						<li>
-							<a href="mailto:josenaldo@gmail.com" target="_new">
-								<i class="fas fa-envelope"></i>
+							<a class="link-light" href="mailto:josenaldo@gmail.com" target="_new">
+								<i class="fas fa-envelope fa-2x"></i>
 							</a>
 						</li>
 
 						<li>
-							<a href="https://github.com/josenaldo" target="_new">
-								<i class="fab fa-github-alt"></i>
+							<a class="link-light" href="https://github.com/josenaldo" target="_new">
+								<i class="fab fa-github-alt fa-2x"></i>
 							</a>
 						</li>
 
 						<li>
-							<a href="https://www.twitter.com/vudureverso" target="_new">
-								<i class="fab fa-twitter"></i>
+							<a class="link-light" href="https://www.twitter.com/vudureverso" target="_new">
+								<i class="fab fa-twitter fa-2x"></i>
 							</a>
 						</li>
 
 						<li>
-							<a href="https://www.linkedin.com/in/josenaldo/" target="_new">
-								<i class="fab fa-linkedin"></i>
+							<a class="link-light" href="https://www.linkedin.com/in/josenaldo/" target="_new">
+								<i class="fab fa-linkedin fa-2x"></i>
 							</a>
 						</li>
 
 						<li>
-							<a href="https://www.facebook.com/josenaldo.matos" target="_new">
-								<i class="fab fa-facebook"></i>
+							<a class="link-light" href="https://www.facebook.com/josenaldo.matos" target="_new">
+								<i class="fab fa-facebook fa-2x"></i>
 							</a>
 						</li>
 
 						<li>
-							<a href="https://www.instagram.com/vudureverso" target="_new">
-								<i class="fab fa-instagram"></i>
+							<a class="link-light" href="https://www.instagram.com/vudureverso" target="_new">
+								<i class="fab fa-instagram fa-2x"></i>
 							</a>
 						</li>
 
-						<li>
-							<a href="https://www.reddit.com/u/vudureverso" target="_new">
-								<i class="fab fa-reddit-alien"></i>
-							</a>
-						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="footer-copyright">
-		<div class="container">
+	<div class="footer-copyright text-light">
+		<div class="container text-center">
 			Copyright © 2021 - Vudu Reverso - Tudo nessa porra é reservado
 		</div>
 	</div>
 
 </footer>
+
 
     <!-- Popover -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

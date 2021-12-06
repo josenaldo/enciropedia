@@ -56,3 +56,10 @@ pkill -u jekyll
 
 git config --global user.email "josenaldo@gmail.com"
 git config --global user.name "Josenaldo de Oliveira Matos Filho"
+
+## Base para o projeto
+
+- Tema: [https://bootswatch.com/darkly/](https://bootswatch.com/darkly/)
+- Template: [https://startbootstrap.com/template/modern-business][https://startbootstrap.com/template/modern-business]
+- [Bootstrap](https://getbootstrap.com/)
+- [Jekyll](http://jekyllrb.com/)

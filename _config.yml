@@ -57,6 +57,10 @@ destination: docs
 #   - vendor/gems/
 #   - vendor/ruby/
 permalink: pretty
-exclude: [vendor]
+exclude:
+  - vendor/
+  - node_modules/
+  - .jekyll-cache/
+
 
 excerpt_separator: <!--more-->
