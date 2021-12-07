@@ -64,3 +64,8 @@ exclude:
 
 
 excerpt_separator: <!--more-->
+
+collections_dir: conteudo
+collections:
+  biografia:
+    output: true

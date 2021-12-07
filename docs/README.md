@@ -23,7 +23,7 @@ Talvez, reiniciar o docker-machine ou o próprio docker funcione. Teste essa hip
 ### Pra executar o servidor de desenvolvimento
 
 ```shell
-jekyll serve --watch --force-polling --livereload
+jekyll serve --watch --force-polling --livereload --incremental
 ```
 
 ### Descobrindo o IP do servidor de teste
