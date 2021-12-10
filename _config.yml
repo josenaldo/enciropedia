@@ -28,11 +28,12 @@ twitter_username: vudureverso
 github_username:  josenaldo
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+
+timezone: America/Sao_Paulo
 
 
 destination: docs

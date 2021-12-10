@@ -12,41 +12,45 @@ layout: home
                         <div class="p-4 p-md-5">
                             <div class="badge bg-primary bg-gradient rounded-pill mb-2">Artigos</div>
                             <div class="h2 fw-bolder">Projeto Nacional de Desenvolvimento</div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique delectus ab doloremque, qui doloribus ea officiis...</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique delectus ab
+                                doloremque, qui doloribus ea officiis...</p>
                             <a class="stretched-link text-decoration-none" href="#!">
                                 Read more
                                 <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-7"><div class="bg-featured-blog" style="background-image: url('https://dummyimage.com/700x350/343a40/6c757d')"></div></div>
+                    <div class="col-lg-6 col-xl-7">
+                        <div class="bg-featured-blog"
+                            style="background-image: url('https://dummyimage.com/700x350/343a40/6c757d')"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- Últimas notícias do site -->
 <section class="py-5 bg-light">
     <div class="container px-5">
         <div class="row gx-5">
             <div class="col-xl-8">
-                <h2 class="fw-bolder fs-5 mb-4">News</h2>
-                <!-- News item-->
+                <h2 class="fw-bolder fs-5 mb-4">Últimas notícias</h2>
+                {% for post in site.posts %}
                 <div class="mb-4">
-                    <div class="small text-muted">May 12, 2021</div>
-                    <a class="link-dark" href="#!"><h3>Start Bootstrap releases Bootstrap 5 updates for templates and themes</h3></a>
+                    <div class="small text-muted">{{ post.date | date: "%d/%m/%Y"}}</div>
+                    <a class="link-dark" href="{{ post.url }}">
+                        <h3>{{ post.title }}</h3>
+                    </a>
+                    <div class="text-dark">
+                        {{ post.excerpt }}
+                    </div>
+
                 </div>
-                <!-- News item-->
-                <div class="mb-5">
-                    <div class="small text-muted">May 5, 2021</div>
-                    <a class="link-dark" href="#!"><h3>Bootstrap 5 has officially landed</h3></a>
-                </div>
-                <!-- News item-->
-                <div class="mb-5">
-                    <div class="small text-muted">Apr 21, 2021</div>
-                    <a class="link-dark" href="#!"><h3>This is another news article headline, but this one is a little bit longer</h3></a>
-                </div>
+                {% endfor %}
+
                 <div class="text-end mb-5 mb-xl-0">
-                    <a class="text-decoration-none" href="#!">
+                    <a class="text-decoration-none" href="/noticias">
                         More news
                         <i class="bi bi-arrow-right"></i>
                     </a>
@@ -87,7 +91,9 @@ layout: home
                     <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
                     <div class="card-body p-4">
                         <div class="badge bg-primary bg-gradient rounded-pill mb-2">Artigo</div>
-                        <a class="text-decoration-none link-light stretched-link" href="#!"><div class="h5 card-title mb-3">Biografia</div></a>
+                        <a class="text-decoration-none link-light stretched-link" href="#!">
+                            <div class="h5 card-title mb-3">Biografia</div>
+                        </a>
                         <p class="card-text mb-0">Conheça a vida do Ciro Gomes.</p>
                     </div>
                 </div>
@@ -97,8 +103,12 @@ layout: home
                     <img class="card-img-top" src="https://dummyimage.com/600x350/adb5bd/495057" alt="..." />
                     <div class="card-body p-4">
                         <div class="badge bg-primary bg-gradient rounded-pill mb-2">Media</div>
-                        <a class="text-decoration-none link-light stretched-link" href="#!"><div class="h5 card-title mb-3">Another blog post title</div></a>
-                        <p class="card-text mb-0">This text is a bit longer to illustrate the adaptive height of each card. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a class="text-decoration-none link-light stretched-link" href="#!">
+                            <div class="h5 card-title mb-3">Another blog post title</div>
+                        </a>
+                        <p class="card-text mb-0">This text is a bit longer to illustrate the adaptive height of each
+                            card. Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
                     </div>
 
                 </div>
@@ -108,8 +118,12 @@ layout: home
                     <img class="card-img-top" src="https://dummyimage.com/600x350/6c757d/343a40" alt="..." />
                     <div class="card-body p-4">
                         <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                        <a class="text-decoration-none link-light stretched-link" href="#!"><div class="h5 card-title mb-3">The last blog post title is a little bit longer than the others</div></a>
-                        <p class="card-text mb-0">Some more quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a class="text-decoration-none link-light stretched-link" href="#!">
+                            <div class="h5 card-title mb-3">The last blog post title is a little bit longer than the
+                                others</div>
+                        </a>
+                        <p class="card-text mb-0">Some more quick example text to build on the card title and make up
+                            the bulk of the card's content.</p>
                     </div>
 
                 </div>
