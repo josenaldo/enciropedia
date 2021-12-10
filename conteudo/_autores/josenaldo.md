@@ -3,6 +3,7 @@ short_name: josenaldo
 name: Josenaldo de Oliveira Matos Filho
 position: Tatu no Toco
 twitter: vudureverso
+image: 
 ---
 Josenaldo, também conhecido como Vudu Reverso (ele mesmo se intitulou assim), é um programador aposentado que inventou de fazer a Enciropedia pq cansou de não ter o que mandar quando perguntavam pra ele sobre o PND.
 

@@ -64,7 +64,7 @@ exclude:
   - .jekyll-cache/
 
 
-excerpt_separator: <!--more-->
+excerpt_separator: <!-- more -->
 
 collections_dir: conteudo
 

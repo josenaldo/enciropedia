@@ -9,7 +9,7 @@ summary: Chega aí, Turma Boa! Vamos contruir a Enciropedia!
 ---
 Anim enim ullamco ex anim adipisicing Lorem nostrud deserunt Lorem culpa quis reprehenderit. Consequat qui sunt cillum sunt ex. Irure dolor dolore consequat non adipisicing deserunt ad aliquip sunt eu. Eu non nisi eiusmod excepteur eiusmod magna labore nostrud magna. Laboris do deserunt cupidatat aliqua dolor eu nisi ex. Do quis officia eiusmod reprehenderit nisi reprehenderit commodo nulla qui id et exercitation.
 
-<!--more-->
+<!-- more -->
 
 Enim ea eu quis amet est officia commodo exercitation. Laboris exercitation velit proident ipsum ad esse consectetur ullamco aute do. Mollit irure laboris qui eiusmod exercitation exercitation nisi voluptate cillum. Consequat enim occaecat irure mollit ad. Tempor aliqua id irure qui deserunt enim ad veniam sit proident laboris dolor tempor labore.
 
