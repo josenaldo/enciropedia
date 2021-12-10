@@ -73,6 +73,8 @@ collections:
     output: true
   autores:
     output: true
+  pnd:
+    output: true
 
 defaults:
   - scope:
@@ -80,6 +82,16 @@ defaults:
       type: "autores"
     values:
       layout: "autor"
+  - scope:
+      path: ""
+      type: "biografia"
+    values:
+      layout: "biografia-item"
+  - scope:
+      path: ""
+      type: "pnd"
+    values:
+      layout: "pnd"
   - scope:
       path: ""
       type: "posts"
