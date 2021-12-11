@@ -1,7 +1,7 @@
 ---
-layout: biografia-item
 data: 1957
-titulo: Nascimento
+title: Nascimento
+ordem: 10
 ---
 Em 6 de novembro de 1957, Ciro nasceu na casa da avó materna em Pindamonhangaba, no interior de São Paulo e mudou-se com a família para Sobral, no Ceará, aos 4 anos de idade.
 

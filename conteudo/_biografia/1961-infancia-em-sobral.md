@@ -1,7 +1,7 @@
 ---
-layout: biografia-item
 data: 1961
-titulo: Infância em Sobral
+title: Infância em Sobral
+ordem: 20
 ---
 
 Ciro fala com carinho da infância em Sobral, da alegria dos dias

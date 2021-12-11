@@ -2484,7 +2484,7 @@ blockquote { background-color: #303030; font-style: italic; padding: 1rem; }
 
 .timeline { position: relative; }
 
-.timeline::before { content: ""; background: #375a7f; width: 5px; height: 95%; position: absolute; left: 50%; transform: translateX(-50%); }
+.timeline::before { content: ""; background: #375a7f; width: 5px; height: 100%; position: absolute; left: 50%; transform: translateX(-50%); }
 
 .timeline-item { width: 100%; margin-bottom: 70px; }
 
