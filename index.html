@@ -36,54 +36,42 @@ layout: home
 <!-- Últimas notícias do site -->
 <section class="py-5 bg-light">
     <div class="container px-5">
-
         <div class="row gx-5">
-            <div class="col-xl-8">
-                <h2 class="fw-bolder fs-5 mb-4">Últimas notícias</h2>
-                {% for post in site.posts %}
-                <div class="mb-4">
-                    <div class="small text-muted">{{ post.date | date: "%d/%m/%Y"}}</div>
-                    <a class="link-dark" href="{{ post.url }}">
-                        <h3>{{ post.title }}</h3>
-                    </a>
-                    <div class="text-dark">
-                        {{ post.excerpt }}
+            {% for post in site.posts %}
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                    <img class="card-img-top" src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" />
+                    <div class="card-body p-4">
+                        <div>
+                            <span class="badge bg-primary bg-gradient rounded-pill mb-2">Artigo</span>
+                            <span class="small text-muted">{{ post.date | date: "%d/%m/%Y"}}</span>
+                        </div>
+                        <a class="text-decoration-none link-white stretched-link" href="#!">
+                            <div class="h5 card-title mb-3">{{ post.title }}</div>
+                        </a>
+                        <p class="card-text mb-0 text-light">
+                            {{ post.excerpt }}
+                        </p>
                     </div>
-
-                </div>
-                {% endfor %}
-
-                <div class="text-end mb-5 mb-xl-0">
-                    <a class="text-decoration-none" href="/noticias">
-                        More news
-                        <i class="bi bi-arrow-right"></i>
-                    </a>
                 </div>
             </div>
-            <div class="col-xl-4">
-                <div class="card border-0 h-100">
-                    <div class="card-body p-4">
-                        <div class="d-flex h-100 align-items-center justify-content-center">
-                            <div class="text-center">
-                                <div class="h6 fw-bolder">Contact</div>
-                                <p class="text-muted mb-4">
-                                    For press inquiries, email us at
-                                    <br />
-                                    <a href="#!">press@domain.com</a>
-                                </p>
-                                <div class="h6 fw-bolder">Follow us</div>
-                                <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-twitter"></i></a>
-                                <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-facebook"></i></a>
-                                <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-linkedin"></i></a>
-                                <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-youtube"></i></a>
-                            </div>
-                        </div>
-                    </div>
+            {% endfor %}
+        </div>
+        <div class="row gx-5">
+            <div class="col-12">
+                <div class="text-end mb-5 mb-xl-0">
+                    <a class="text-decoration-none" href="/noticias">
+                        <a href="{{ 'noticias/' | prepend: site.baseurl }}" class="btn btn-primary">
+                            Mais notícias
+                        <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
 <!-- Páginas principais: Biografia, PND, Currículo-->
 <section class="py-5">

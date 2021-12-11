@@ -97,6 +97,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      image: "assets/images/posts/default.png"
   - scope:
       path: ""
     values:
