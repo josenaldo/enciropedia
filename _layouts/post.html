@@ -6,10 +6,26 @@ layout: default
 
 <section class="py-5">
     <div class="container px-5">
-        <h1>{{ page.title }}</h1>
+        <div class="card bg-dark text-white text-center rounded-3">
+            <img src="{{ page.image | prepend: site.baseurl }}"
+                class="card-img-top" alt="{{ page.author }}">
 
-        <p>{{ page.date | date_to_string }} - <a href="{{ autor.url }}">{{ autor.name }}</a></p>
+                <div class="card-body">
+                    <h1 class="card-title">{{ page.title }}</h1>
+                    <p class="small text-muted">
+                        <span class="badge bg-primary bg-gradient rounded-pill mb-2">{{page.category}}</span> -
+                        {{ page.date | date: "%d/%m/%Y"}} -
+                        <a href="{{ autor.url }}">{{ autor.name }}</a>
+                    </p>
+                    <p class="card-text">
+                        {{page.sumary}}
+                    </p>
+                    <hr>
+                    <div class="card-text text-light">
+                        {{ content | markdownify }}
+                    </div>
+                </div>
 
-        {{ content }}
+        </div>
     </div>
 </section>

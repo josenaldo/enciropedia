@@ -2,7 +2,7 @@
 layout: post
 title: Chega mais, Turma Boa!
 date: 2021-12-08 22:00
-category: artigo
+category: Artigo
 author: josenaldo
 tags: [convocação, turma, boa]
 summary: Chega aí, Turma Boa! Vamos contruir a Enciropedia!

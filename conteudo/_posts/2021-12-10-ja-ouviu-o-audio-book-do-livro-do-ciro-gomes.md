@@ -2,7 +2,7 @@
 layout: post
 title: Já ouviu o audiobook do Livro do Ciro Gomes?
 date: 2021-12-10 00:52
-category: artigo
+category: Artigo
 author: josenaldo
 tags: [audiobook, livro, ciro, gomes]
 summary: Já pensou em ouvir o audiobook do Livro do Ciro Gomes?

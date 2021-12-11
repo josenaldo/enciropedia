@@ -44,14 +44,14 @@ layout: home
                     <img class="card-img-top" src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" />
                     <div class="card-body p-4">
                         <div>
-                            <span class="badge bg-primary bg-gradient rounded-pill mb-2">Artigo</span>
+                            <span class="badge bg-primary bg-gradient rounded-pill mb-2">{{post.category}}</span>
                             <span class="small text-muted">{{ post.date | date: "%d/%m/%Y"}}</span>
                         </div>
-                        <a class="text-decoration-none link-white stretched-link" href="#!">
-                            <div class="h5 card-title mb-3">{{ post.title }}</div>
+                        <a class="text-decoration-none link-white stretched-link" href="{{post.url}}">
+                            <div class="h5 card-title mb-3">{{post.title}}</div>
                         </a>
                         <p class="card-text mb-0 text-light">
-                            {{ post.excerpt }}
+                            {{post.excerpt}}
                         </p>
                     </div>
                 </div>

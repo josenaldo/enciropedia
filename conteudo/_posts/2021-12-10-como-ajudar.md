@@ -2,7 +2,7 @@
 layout: post
 title: Como ajudar a Enciropedia
 date: 2021-12-10 00:51
-category: artigo
+category: Artigo
 author: josenaldo
 tags: [ajuda, colaboração]
 summary: Quer saber como ajudar a Enciropedia?
