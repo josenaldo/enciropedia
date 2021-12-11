@@ -57,7 +57,8 @@ destination: docs
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-permalink: pretty
+permalink: /:categories/:title:output_ext
+
 exclude:
   - vendor/
   - node_modules/
@@ -82,23 +83,27 @@ defaults:
       type: "autores"
     values:
       layout: "autor"
+      image: "assets/images/default.png"
   - scope:
       path: ""
       type: "biografia"
     values:
       layout: "biografia-item"
+      image: "assets/images/default.png"
   - scope:
       path: ""
       type: "pnd"
     values:
       layout: "pnd"
+      image: "assets/images/default.png"
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      image: "assets/images/posts/default.png"
+      image: "assets/images/default.png"
   - scope:
       path: ""
     values:
       layout: "default"
+      image: "assets/images/default.png"

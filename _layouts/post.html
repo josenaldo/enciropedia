@@ -8,7 +8,7 @@ layout: default
     <div class="container px-5">
         <div class="card bg-dark text-white text-center rounded-3">
             <img src="{{ page.image | prepend: site.baseurl }}"
-                class="card-img-top" alt="{{ page.author }}">
+                class="card-img-top" alt="{{ page.title }}">
 
                 <div class="card-body">
                     <h1 class="card-title">{{ page.title }}</h1>
@@ -17,15 +17,13 @@ layout: default
                         {{ page.date | date: "%d/%m/%Y"}} -
                         <a href="{{ autor.url }}">{{ autor.name }}</a>
                     </p>
-                    <p class="card-text">
-                        {{page.sumary}}
+                    <p class="bg-secondary text-light py-3 rounded-1 fst-italic">
+                        {{page.summary}}
                     </p>
-                    <hr>
                     <div class="card-text text-light">
                         {{ content | markdownify }}
                     </div>
                 </div>
-
         </div>
     </div>
 </section>
