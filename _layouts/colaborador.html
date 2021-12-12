@@ -4,7 +4,7 @@ layout: default
 {% assign author_posts = site.posts | where: 'author', page.short_name %}
 
 <section class="pt-3">
-    <div class="container px-5">
+    <div class="container px-3">
         <div class="card bg-dark text-white rounded-3">
             <img src="{{ page.image | prepend: site.baseurl }}"
                 class="card-img-top" alt="{{ page.title }}">
@@ -29,7 +29,7 @@ layout: default
                 {% if page.facebook %}
                 <a class="mx-1" href="https://web.facebook.com/{{page.facebook}}" target="_new"><i class="fab fa-facebook fa-2x"></i></a>
                 {% endif %}
-                
+
                 {% if page.github %}
                 <a class="mx-1" href="https://www.github.com/{{page.github}}" target="_new"><i class="fab fa-github fa-2x"></i></a>
                 {% endif %}
@@ -40,7 +40,7 @@ layout: default
 </section>
 
 <section class="py-5">
-    <div class="container px-5">
+    <div class="container px-3">
         <div class="row row-cols-1 row-cols-md-2 g-4" data-masonry='{"percentPosition": true }'>
             {% for post in author_posts %}
 
