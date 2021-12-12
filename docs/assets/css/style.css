@@ -2480,8 +2480,6 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 blockquote { background-color: #303030; font-style: italic; padding: 1rem; }
 
-.current { color: green; }
-
 .timeline { position: relative; }
 
 .timeline::before { content: ""; background: #375a7f; width: 5px; height: 100%; position: absolute; left: 50%; transform: translateX(-50%); }
@@ -2518,10 +2516,14 @@ blockquote { background-color: #303030; font-style: italic; padding: 1rem; }
 
 @media screen and (max-width: 768px) { .timeline::before { left: 50px; } .timeline .timeline-img { left: 50px; } .timeline .timeline-content { max-width: 100%; width: auto; margin-left: 70px; } .timeline .timeline-item:nth-child(even) .timeline-content { float: none; } .timeline .timeline-item:nth-child(odd) .timeline-content::after { content: ""; position: absolute; border-style: solid; width: 0; height: 0; top: 60px; left: -15px; border-width: 10px 15px 10px 0; border-color: transparent #303030 transparent transparent; } }
 
+.navbar { height: 80px !important; }
+
 .social ul { list-style-type: none; margin: 0; padding: 0; }
 
 .social ul li { display: inline; margin: 0 5px; }
 
 .social ul li a:-webkit-any-link { text-decoration: none !important; border-bottom: none !important; }
+
+body { padding-top: 80px; }
 
 /*# sourceMappingURL=style.css.map */

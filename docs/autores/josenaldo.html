@@ -42,12 +42,12 @@
 <meta property="og:site_name" content="Enciropedia" />
 <meta property="og:image" content="https://enciropedia.com.br/assets/images/default.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-12-11T10:28:34-03:00" />
+<meta property="article:published_time" content="2021-12-12T15:47:10-03:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://enciropedia.com.br/assets/images/default.png" />
 <meta property="twitter:title" content="Josenaldo" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","image":"https://enciropedia.com.br/assets/images/default.png","description":"Josenaldo, também conhecido como Vudu Reverso (ele mesmo se intitulou assim), é um programador aposentado que inventou de fazer a Enciropedia pq cansou de não ter o que mandar quando perguntavam pra ele sobre o PND. Pra quem não conhece, no Vudu Reverso, vc faz um boneco vudu, faz um porrete cheio de pregos, depois bate na vítima até o boneco gritar “ai” – Vudu Reverso","url":"https://enciropedia.com.br/autores/josenaldo.html","headline":"Josenaldo","datePublished":"2021-12-11T10:28:34-03:00","dateModified":"2021-12-11T10:28:34-03:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://enciropedia.com.br/autores/josenaldo.html"},"@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","image":"https://enciropedia.com.br/assets/images/default.png","description":"Josenaldo, também conhecido como Vudu Reverso (ele mesmo se intitulou assim), é um programador aposentado que inventou de fazer a Enciropedia pq cansou de não ter o que mandar quando perguntavam pra ele sobre o PND. Pra quem não conhece, no Vudu Reverso, vc faz um boneco vudu, faz um porrete cheio de pregos, depois bate na vítima até o boneco gritar “ai” – Vudu Reverso","url":"https://enciropedia.com.br/autores/josenaldo.html","headline":"Josenaldo","datePublished":"2021-12-12T15:47:10-03:00","dateModified":"2021-12-12T15:47:10-03:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://enciropedia.com.br/autores/josenaldo.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -56,54 +56,69 @@
 
     <main role="main" class="flex-shrink-0">
         <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 
         <div class="container">
+            <!-- Brand -->
             <a class="navbar-brand" href="/">
                 <img src="/assets/images/enciropedia-logo-navbar.svg" alt="Enciropedia">
             </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbar-enciropedia" aria-controls="navbar-enciropedia" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <!-- Navbar Toggler -->
+            <div class="bs-offset-main bs-canvas-anim">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
 
-            <div class="collapse navbar-collapse" id="navbar-enciropedia">
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+            data-bs-scroll="false" data-bs-backdrop="true"
+                aria-labelledby="offcanvasNavbarLabel">
 
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/noticias">Notícias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/biografia">Biografia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/pnd">PND</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/videos">Vídeos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/podcast">Podcasts</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/turma-boa">Turma Boa</a>
-                    </li>
-                </ul>
+                <div class="offcanvas-header">
+                    <a class="navbar-brand" href="/">
+                        <img src="/assets/images/enciropedia-logo-navbar.svg" alt="Enciropedia">
+                    </a>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/noticias">Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/biografia">Biografia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pnd">PND</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/videos">Vídeos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/podcast">Podcasts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/turma-boa">Turma Boa</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
-
 </header>
 
         <div class="bg-secondary flex-shrink-0">
-    <div class="container">
+    <div class="container mt-0">
         <ol class="breadcrumb">
             
             <li class="breadcrumb-item">
@@ -236,13 +251,14 @@ cheio de pregos, depois bate na vítima até o boneco gritar “ai”</p>
 
 
     <!-- Popover -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 
 <!-- Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
 <!-- Mansory -->
 <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-E9PC2G049F"></script>

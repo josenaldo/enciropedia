@@ -5,24 +5,7 @@ layout: asset
 @import "bootstrap/bootstrap";
 @import "bootswatch";
 @import "tipografia";
-@import "main";
 @import "timeline";
-.social {
-
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-
-        li {
-            display: inline;
-            margin: 0 5px;
-            ;
-
-            a:-webkit-any-link {
-                text-decoration: none !important;
-                border-bottom: none !important;
-            }
-        }
-    }
-}
+@import "header";
+@import "footer";
+@import "main";
