@@ -73,7 +73,7 @@ collections:
   biografia:
     output: true
     sort_by: ordem
-  autores:
+  colaboradores:
     output: true
   pnd:
     output: true
@@ -81,9 +81,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "autores"
+      type: "colaboradores"
     values:
-      layout: "autor"
+      layout: "colaborador"
       image: "assets/images/default.png"
   - scope:
       path: ""

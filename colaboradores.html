@@ -1,0 +1,40 @@
+---
+layout: default
+title: Colaboradores
+---
+
+<section class="py-5">
+    <div class="container mb-5 px-5">
+        <div class="card bg-dark text-white rounded-3">
+            <div class="card-body">
+                <h1 class="card-title text-center ">{{ page.title }}</h1>
+
+                <div class="card-text text-light">
+                    Estes são os colaboradores que ajudaram a criar e manter esta plataforma. A todos, um muito obrigado!
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container px-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4" data-masonry='{"percentPosition": true }'>
+            {% for colaborador in site.colaboradores %}
+
+            <div class="col">
+                <div class="card">
+                    <img src="{{ colaborador.image | prepend: site.baseurl }}" class="card-img-top"
+                        alt="{{colaborador.title}}">
+                    <div class="card-body">
+                        <span class="badge bg-primary bg-gradient rounded-pill mb-2">{{colaborador.position}}</span>
+
+                        <a href="{{colaborador.url}}">
+                            <h5 class="card-title">{{ colaborador.name }}</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

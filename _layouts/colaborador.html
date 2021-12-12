@@ -1,0 +1,65 @@
+---
+layout: default
+---
+{% assign author_posts = site.posts | where: 'author', page.short_name %}
+
+<section class="pt-3">
+    <div class="container px-5">
+        <div class="card bg-dark text-white rounded-3">
+            <img src="{{ page.image | prepend: site.baseurl }}"
+                class="card-img-top" alt="{{ page.title }}">
+            <div class="card-body">
+                <h1 class="card-title rounded  text-center ">{{ page.name }}</h1>
+                <hr>
+                <span class="badge bg-primary bg-gradient rounded-pill mb-2  text-center">{{page.position}}</span>
+                <div class="card-text text-light">
+                    {{ content | markdownify }}
+                </div>
+            </div>
+            {% if page.twitter or page.instagram or page.facebook or page.github %}
+            <div class="card-footer text-center">
+                {% if page.twitter %}
+                <a class="mx-1" href="https://www.twitter.com/{{page.twitter}}" target="_new"><i class="fab fa-twitter fa-2x"></i></a>
+                {% endif %}
+
+                {% if page.instagram %}
+                <a class="mx-1" href="https://www.instagram.com/{{page.instagram}}" target="_new"><i class="fab fa-instagram fa-2x"></i></a>
+                {% endif %}
+
+                {% if page.facebook %}
+                <a class="mx-1" href="https://web.facebook.com/{{page.facebook}}" target="_new"><i class="fab fa-facebook fa-2x"></i></a>
+                {% endif %}
+                
+                {% if page.github %}
+                <a class="mx-1" href="https://www.github.com/{{page.github}}" target="_new"><i class="fab fa-github fa-2x"></i></a>
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container px-5">
+        <div class="row row-cols-1 row-cols-md-2 g-4" data-masonry='{"percentPosition": true }'>
+            {% for post in author_posts %}
+
+            <div class="col">
+                <div class="card">
+                    <img src="{{ post.image | prepend: site.baseurl }}"
+                        class="card-img-top" alt="{{post.title}}">
+                    <div class="card-body">
+                        <span class="badge bg-primary bg-gradient rounded-pill mb-2">{{post.category}}</span>
+
+                        <a href="{{post.url}}"><h5 class="card-title">{{ post.title }}</h5></a>
+
+                        <span class="small text-muted">{{ post.date | date: "%d/%m/%Y"}}</span>
+                        <p class="card-text text-light">{{ post.excerpt }}</p>
+                        <a href="{{post.url}}" class="card-link">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

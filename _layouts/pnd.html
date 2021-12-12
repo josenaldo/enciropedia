@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign autor = site.autores | where: 'short_name', page.author | first %}
+{% assign colaborador = site.colaboradores | where: 'short_name', page.author | first %}
 
 <section class="py-5">
     <div class="container px-5">
@@ -15,7 +15,7 @@ layout: default
                     <p class="small text-muted">
                         <span class="badge bg-primary bg-gradient rounded-pill mb-2">{{page.category}}</span> -
                         {{ page.date | date: "%d/%m/%Y"}} -
-                        <a href="{{ autor.url }}">{{ autor.name }}</a>
+                        <a href="{{ colaborador.url }}">{{ colaborador.name }}</a>
                     </p>
                     <p class="bg-secondary text-light py-3 rounded-1 fst-italic">
                         {{page.summary}}
