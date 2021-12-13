@@ -57,7 +57,7 @@ destination: docs
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-permalink: /:categories/:title:output_ext
+permalink: none
 
 exclude:
   - vendor/
