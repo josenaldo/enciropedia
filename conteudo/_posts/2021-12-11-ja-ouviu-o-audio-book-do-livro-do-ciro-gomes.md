@@ -6,14 +6,35 @@ category: noticias
 author: josenaldo
 tags: [audiobook, livro, ciro, gomes]
 summary: Já pensou em ouvir o audiobook do Livro do Ciro Gomes?
+image: assets/images/posts/2021-12-11-ja-ouviu-o-audio-book-do-livro-do-ciro-gomes.jpg
 ---
 
-Nulla tempor ullamco deserunt officia consequat occaecat. Esse amet fugiat minim excepteur incididunt Lorem. Nisi nisi esse occaecat nostrud officia id nostrud incididunt ipsum duis qui elit. Do fugiat incididunt officia consequat sunt ullamco Lorem sunt laborum anim.
+Saudações Turma Boa! Está sem tempo de ler o livro do Ciro Gomes? A correria não te deixa parar pra ler?
+
 <!-- more -->
-Amet voluptate mollit sit laborum anim quis do. Nisi in laborum id dolor nostrud ut minim. Deserunt et incididunt reprehenderit veniam sit culpa occaecat ea sit nisi quis. Qui proident fugiat ea velit sint consequat ullamco ea.
 
-Reprehenderit in ut dolore ullamco et laborum amet nostrud Lorem ut consectetur. Irure ex consectetur et deserunt ad eu. Officia est reprehenderit Lorem quis et. In in nisi do fugiat esse irure magna consectetur voluptate.
+Pois é, seus problemas acabaram! Graças aos canais [Progressistinha](https://www.youtube.com/channel/UCEAT34ffgnxP2s3A_Kzzrww) e [Discoteca](https://www.youtube.com/c/Discotecatv) nós temos duas opções de ebooks disponíveis.
 
-Labore eiusmod dolor exercitation esse dolor culpa cillum est Lorem proident proident amet nulla. Proident labore id non nostrud amet laborum in. Sunt mollit culpa duis esse officia excepteur reprehenderit cupidatat cupidatat occaecat pariatur nostrud et. Excepteur non consectetur eiusmod irure. Proident aliquip eiusmod adipisicing mollit aute irure ea ut reprehenderit aliquip tempor consequat.
+O canal Progressistinha disponibiliza um vídeo com TODO o livro do Ciro! Imagina só o trabalhão pra fazer isso? Parabéns a quem comanda o canal!
 
-Officia fugiat pariatur consequat do consequat nostrud cupidatat mollit ipsum aliqua eiusmod. Ut et cupidatat velit proident qui et veniam occaecat irure ut dolore magna. Mollit elit exercitation quis aliquip eiusmod aliqua.
+<div class="ratio ratio-16x9 my-3">
+    <iframe
+    src="https://www.youtube.com/embed/0z8_xnZJ2qw?rel=0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen></iframe>
+</div>
+
+Já o canal Discoteca disponibiliza uma playlist com vários vídeos, com divisão por capítulos.
+
+<div class="ratio ratio-16x9 my-3">
+    <iframe
+    src="https://www.youtube.com/embed/Ge6nGkc41No?rel=0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen></iframe>
+</div>
+
+Se preferir ir direto pra playlist, [acesse aqui](https://www.youtube.com/playlist?list=PLArA-KLtEQBMjNM2mHecLIlSh0RA-8IGI).
+
+Escolha sua opção e manda ver!
+
+Bons estudos!

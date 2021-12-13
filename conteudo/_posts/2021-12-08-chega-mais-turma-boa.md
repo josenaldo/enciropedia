@@ -6,13 +6,18 @@ category: noticias
 author: josenaldo
 tags: [convocação, turma, boa]
 summary: Chega aí, Turma Boa! Vamos contruir a Enciropedia!
+image: assets/images/posts/2021-12-08-chega-mais-turma-boa.jpg
 ---
-Anim enim ullamco ex anim adipisicing Lorem nostrud deserunt Lorem culpa quis reprehenderit. Consequat qui sunt cillum sunt ex. Irure dolor dolore consequat non adipisicing deserunt ad aliquip sunt eu. Eu non nisi eiusmod excepteur eiusmod magna labore nostrud magna. Laboris do deserunt cupidatat aliqua dolor eu nisi ex. Do quis officia eiusmod reprehenderit nisi reprehenderit commodo nulla qui id et exercitation.
+Turma Boa, alegrem-se! Finalmente é chegada nossa EnCIROpedia! E vamos construí-la juntos!
 
 <!-- more -->
 
-Enim ea eu quis amet est officia commodo exercitation. Laboris exercitation velit proident ipsum ad esse consectetur ullamco aute do. Mollit irure laboris qui eiusmod exercitation exercitation nisi voluptate cillum. Consequat enim occaecat irure mollit ad. Tempor aliqua id irure qui deserunt enim ad veniam sit proident laboris dolor tempor labore.
+Tive a ideia de criar a enCIROpedia pra resolver um problema meu: onde encontro o PND?
 
-Elit mollit reprehenderit dolore reprehenderit proident veniam laborum aute amet ipsum voluptate nostrud. Voluptate non occaecat elit labore eiusmod sint elit amet. Lorem consequat nisi quis minim ullamco tempor eu Lorem eiusmod. Officia dolore sit culpa incididunt consectetur dolore est qui occaecat. Consectetur esse eu reprehenderit nulla.
+Procurando na internet, exceto pelo livro do Ciro, encontrei poucos locais com informações sobre o PND. E isso me deixou bastante decepcionado. Como pode um projeto tão bom ter tão pouco escrito sobre ele?
 
-Pariatur ad sint fugiat excepteur duis enim fugiat aute esse pariatur ad. Exercitation labore velit exercitation incididunt. Quis ea velit labore deserunt tempor anim pariatur cupidatat nulla amet occaecat. Duis exercitation occaecat aliqua id et.
+Muita gente fala do PND, mas quando alguém me pergunta sobre o PND, quando me pedem pra indicar material, eu não tenho nada além do livro do Ciro.
+
+Aposto que vocês passam por isso também. Pois vamos resolver isso. E vamos fazer isso juntos.
+
+Quer participar? Me chama no Twitter. [@vudureverso](https://twitter.com/vudureverso).
