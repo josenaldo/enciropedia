@@ -18,22 +18,17 @@ title: Colaboradores
 
     <div class="container px-3">
         <div class="row row-cols-1 row-cols-md-3 g-4" data-masonry='{"percentPosition": true }'>
+
             {% for colaborador in site.colaboradores %}
-
             <div class="col">
-                <div class="card">
-                    <img src="{{ colaborador.image | prepend: site.baseurl }}" class="card-img-top"
-                        alt="{{colaborador.title}}">
-                    <div class="card-body">
-                        <span class="badge bg-primary bg-gradient rounded-pill mb-2">{{colaborador.position}}</span>
-
-                        <a href="{{colaborador.url}}">
-                            <h5 class="card-title">{{ colaborador.name }}</h5>
-                        </a>
-                    </div>
-                </div>
+                {%include card.html
+                    link_text=colaborador.name
+                    link=colaborador.url
+                    image=colaborador.image
+                    category=colaborador.position %}
             </div>
             {% endfor %}
+
         </div>
     </div>
 </section>

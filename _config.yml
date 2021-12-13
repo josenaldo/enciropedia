@@ -81,15 +81,21 @@ collections:
 defaults:
   - scope:
       path: ""
+      type: "biografia"
+    values:
+      layout: "biografia-item"
+      image: "assets/images/default.png"
+  - scope:
+      path: ""
       type: "colaboradores"
     values:
       layout: "colaborador"
       image: "assets/images/default.png"
   - scope:
       path: ""
-      type: "biografia"
+      type: "movimentos"
     values:
-      layout: "biografia-item"
+      layout: "movimento"
       image: "assets/images/default.png"
   - scope:
       path: ""
@@ -99,9 +105,21 @@ defaults:
       image: "assets/images/default.png"
   - scope:
       path: ""
+      type: "podcasts"
+    values:
+      layout: "podcast"
+      image: "assets/images/default.png"
+  - scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
+      image: "assets/images/default.png"
+  - scope:
+      path: ""
+      type: "videos"
+    values:
+      layout: "video"
       image: "assets/images/default.png"
   - scope:
       path: ""

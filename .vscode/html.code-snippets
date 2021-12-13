@@ -23,8 +23,22 @@
 			"{{ '$1' | prepend: site.baseurl }}",
 		],
 		"description": "URL relativa com prepend de baseurl"
+	},
+
+	"Card padrão": {
+		"scope": "html",
+		"prefix": "card",
+		"body": [
+			"<div class=\"card bg-dark text-white rounded-3\">",
+			"    <div class=\"card-body\">",
+			"        <h1 class=\"card-title text-center\">{{ page.title }}</h1>",
+			"        <div class=\"card-text text-light\">",
+            "            '$1'",
+			"        </div>",
+			"    </div>",
+			"</div>"
+		],
+		"description": "URL relativa com prepend de baseurl"
 	}
 }
-
-
 

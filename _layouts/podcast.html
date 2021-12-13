@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<section class="py-5">
+    <div class="container px-3">
+        <div class="card bg-dark text-white text-center rounded-3">
+            <img src="{{ page.image | prepend: site.baseurl }}"
+                class="card-img-top" alt="{{ page.title }}">
+
+                <div class="card-body">
+                    <h1 class="card-title">{{ page.title }}</h1>
+
+                    <div class="card-text text-light">
+                        {{ content | markdownify }}
+                    </div>
+                    <div class="text-end">
+                        <a href="/biografia/">Voltar</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>

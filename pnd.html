@@ -4,8 +4,41 @@ title: Projeto Nacional de Desenvolvimento
 ---
 <section class="py-5">
     <div class="container px-3">
-        <h1>{{ page.title }}</h1>
 
+        {% capture content %}
+        <p>
+            Occaecat culpa ea culpa incididunt. Anim deserunt deserunt eu in id sunt dolor ea eu elit esse
+            ipsum. Aliquip irure exercitation est esse incididunt amet nostrud id. Consectetur eiusmod dolor
+            occaecat consequat sint et ad. Quis aliquip nostrud ad proident nostrud. Sint occaecat ad esse
+            enim
+            est occaecat id ex deserunt fugiat officia. Qui in exercitation veniam exercitation pariatur qui
+            sunt sunt cillum nisi proident qui.
+        </p>
+
+        <p>
+            Laborum cupidatat aute commodo nostrud consectetur non duis voluptate officia elit. Et occaecat
+            sit
+            incididunt labore et nostrud nisi pariatur cillum incididunt pariatur. Est nisi aliquip non
+            duis.
+            Nulla anim laborum proident sunt elit enim dolor. Dolore occaecat pariatur do adipisicing veniam
+            laboris enim Lorem reprehenderit velit nisi. Sit do consectetur id consequat. Sunt nulla minim
+            veniam enim ea sunt nisi ipsum cupidatat tempor eiusmod nulla ad.
+        </p>
+
+        <p>
+            Occaecat dolor nisi irure irure Lorem deserunt reprehenderit. Ex Lorem laborum non enim dolore
+            magna
+            nisi laboris commodo. Fugiat sunt tempor quis laborum ad in ea consectetur cillum ad id non
+            pariatur. Est fugiat exercitation ipsum enim occaecat id voluptate dolore et sunt.
+        </p>
+        {% endcapture %}
+
+        {%include card.html
+            title=page.title
+            image=page.image
+            content=content
+            is_html=true
+        %}
 
     </div>
 </section>

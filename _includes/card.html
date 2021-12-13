@@ -1,0 +1,63 @@
+{% comment %}
+Esse include serve com tag de um card padrão.
+
+Parâmetros:
+- title: Título do card
+- content: Conteúdo em Markdown
+- is_html: O conteúdo é HTML
+- image: Imagem do card
+- link: Link do card
+- link_text: Texto do link do card
+- category: Categopria que será mostrada em formato de pílula
+- date: Data do conteúdo
+{% endcomment %}
+
+<div class="card bg-dark text-white rounded-3 h-100 shadow border-0">
+
+    {% if include.image %}
+    <img class="card-img-top" src="{{ include.image | prepend: site.baseurl }}" alt="{{ include.title }}" />
+    {% endif %}
+
+    <div class="card-body">
+
+        {% if include.title %}
+            {% if include.link %}
+                <h5 class="stretched-link card-title">
+                    <a href="{{ include.link }}" class="text-decoration-none">{{ include.title }}</a>
+                </h5>
+            {% else %}
+                <h3 class="card-title">{{ include.title }}</h3>
+            {% endif %}
+        {% endif %}
+
+        <div class="card-text text-light">
+            {% if include.category or include.date %}
+            <div class="mb-3">
+                {% if include.category %}
+                <span class="badge bg-primary bg-gradient rounded-pill">{{ include.category }}</span>
+                {% endif %}
+
+                {% if include.date %}
+                <span class="small text-muted">{{ include.date | date: "%d/%m/%Y"}}</span>
+                {% endif %}
+            </div>
+            {% endif %}
+
+            {% if include.content %}
+            <p class="card-text mb-0">
+                {% if include.is_html %}
+                {{ include.content }}
+                {% else %}
+                {{ include.content | markdownify }}
+                {% endif %}
+            </p>
+            {% endif %}
+
+            {% if include.link %}
+            <a class="card-link stretched-link" href="{{ include.link }}">
+                {{ include.link_text | default: 'Leia Mais' }}
+            </a>
+            {% endif %}
+        </div>
+    </div>
+</div>

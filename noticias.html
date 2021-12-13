@@ -6,21 +6,14 @@ title: Notícias
     <div class="container px-3">
         <div class="row row-cols-1 row-cols-md-2 g-4" data-masonry='{"percentPosition": true }'>
             {% for post in site.posts %}
-
             <div class="col">
-                <div class="card">
-                    <img src="{{ post.image | prepend: site.baseurl }}"
-                        class="card-img-top" alt="{{post.title}}">
-                    <div class="card-body">
-                        <span class="badge bg-primary bg-gradient rounded-pill mb-2">{{post.category}}</span>
-
-                        <a href="{{post.url}}"><h5 class="card-title">{{ post.title }}</h5></a>
-
-                        <span class="small text-muted">{{ post.date | date: "%d/%m/%Y"}}</span>
-                        <p class="card-text text-light">{{ post.excerpt }}</p>
-                        <a href="{{post.url}}" class="card-link">Leia mais</a>
-                    </div>
-                </div>
+                {%include card.html
+                    title=post.title
+                    link=post.url
+                    image=post.image
+                    category=post.category
+                    date=post.date
+                    content=post.excerpt %}
             </div>
             {% endfor %}
         </div>
