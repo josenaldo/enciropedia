@@ -48,6 +48,8 @@ Toda imagem e foto colocada no site precisa de duas coisas:
 
 Sem isso, não poderemos usar no site.
 
+Sempre que possível, envie imagens no formato 1200 x 630.
+
 ## Enviando vídeos
 
 Se Você tem vídeos pra nos enviar, pode colocar no Github, nos comentários da tarefa. De preferência, vídeos no Youtube. Se você quiser enviar o vídeo, nós iremos colocá-lo no Youtube.
