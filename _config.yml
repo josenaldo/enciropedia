@@ -75,8 +75,16 @@ collections:
     sort_by: ordem
   colaboradores:
     output: true
+  movimentos:
+    output: true
   pnd:
     output: true
+  podcasts:
+    output: true
+  videos:
+    output: true
+    sort_by: date
+
 
 defaults:
   - scope:

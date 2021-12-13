@@ -2,23 +2,47 @@
 layout: default
 title: Vídeos do Ciro
 ---
+<section class="pt-5">
+    <div class="container px-3">
+        {% capture content %}
+        Dolor reprehenderit tempor nisi ut dolor magna nisi irure enim reprehenderit consequat consectetur. Proident qui
+        excepteur consequat exercitation Lorem ad ut minim consectetur magna ad eu commodo. Incididunt cupidatat laborum
+        nulla nostrud nostrud magna est aliquip sint.
+
+        Laboris Lorem voluptate ex proident nulla Lorem laboris et incididunt nostrud do. Esse est amet magna
+        consectetur commodo dolor do sint mollit ullamco. Nulla dolore non excepteur veniam cupidatat qui ad nostrud
+        adipisicing. Sit exercitation occaecat deserunt amet do magna laborum veniam culpa id sit nisi sit adipisicing.
+        Ullamco excepteur amet laborum et.
+        {% endcapture %}
+
+        {%include card.html
+            title=page.title
+            image=page.image
+            content=content
+            is_html=true %}
+    </div>
+</section>
+
 <section class="py-5">
     <div class="container px-3">
+        <div class="row row-cols-1 row-cols-md-2 g-4" data-masonry='{"percentPosition": true }'>
+            {% assign videos = site.videos %}
 
-        <div class="card bg-dark text-white rounded-3">
-            <div class="card-body">
-                <h1 class="card-title text-center ">{{ page.title }}</h1>
+            {% for video in videos reversed %}
 
-                <div class="card-text text-light">
-                    <p>
-                        Occaecat culpa ea culpa incididunt. Anim deserunt deserunt eu in id sunt dolor ea eu elit esse
-                        ipsum. Aliquip irure exercitation est esse incididunt amet nostrud id. Consectetur eiusmod dolor
-                        occaecat consequat sint et ad. Quis aliquip nostrud ad proident nostrud. Sint occaecat ad esse enim
-                        est occaecat id ex deserunt fugiat officia. Qui in exercitation veniam exercitation pariatur qui
-                        sunt sunt cillum nisi proident qui.
-                    </p>
-                </div>
+            {% capture video_image %}https://img.youtube.com/vi/{{video.video_id}}/0.jpg{% endcapture %}
+
+            <div class="col">
+                {%include card.html
+                    title=video.title
+                    link=video.url
+                    image=video_image
+                    is_image_external=true
+                    category=video.category
+                    date=video.date
+                    content=video.excerpt %}
             </div>
+            {% endfor %}
         </div>
     </div>
 </section>
