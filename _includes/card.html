@@ -15,11 +15,11 @@ Parâmetros:
 
 <div class="card bg-dark text-white rounded-3 h-100 shadow border-0">
 
-    {% if include.image %}
+    {% if include.image.path or include.image %}
         {% if include.is_image_external %}
-        <img class="card-img-top"src="{{ include.image }}" alt="{{ include.title }}">
+        <img class="card-img-top"src="{{ include.image.path | default: include.image }}" alt="{{ include.title }}">
         {% else %}
-        <img class="card-img-top" src="{{ include.image | prepend: site.baseurl }}" alt="{{ include.title }}" />
+        <img class="card-img-top" src="{{ include.image.path | default: include.image | prepend: site.baseurl }}" alt="{{ include.title }}" />
         {% endif %}
     {% endif %}
 

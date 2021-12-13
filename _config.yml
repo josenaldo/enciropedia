@@ -143,6 +143,7 @@ defaults:
       type: "videos"
     values:
       layout: "video"
+      category: "videos"
       image:
         path: "assets/images/default.jpg"
         width: "1200"

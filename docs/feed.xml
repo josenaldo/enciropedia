@@ -1,4 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://enciropedia.com.br/feed.xml" rel="self" type="application/atom+xml" /><link href="https://enciropedia.com.br/" rel="alternate" type="text/html" /><updated>2021-12-13T03:38:22-03:00</updated><id>https://enciropedia.com.br/feed.xml</id><title type="html">Enciropedia</title><subtitle>A enciclopédia do Cirão!</subtitle><entry><title type="html">Como ajudar a Enciropedia</title><link href="https://enciropedia.com.br/noticias/como-ajudar.html" rel="alternate" type="text/html" title="Como ajudar a Enciropedia" /><published>2021-12-13T01:45:00-03:00</published><updated>2021-12-13T01:45:00-03:00</updated><id>https://enciropedia.com.br/noticias/como-ajudar</id><content type="html" xml:base="https://enciropedia.com.br/noticias/como-ajudar.html">&lt;p&gt;Saudações, Turma Boa! Quer ajudar a EnCIROpedia e não sabe como?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://enciropedia.com.br/feed.xml" rel="self" type="application/atom+xml" /><link href="https://enciropedia.com.br/" rel="alternate" type="text/html" /><updated>2021-12-13T19:37:50-03:00</updated><id>https://enciropedia.com.br/feed.xml</id><title type="html">Enciropedia</title><subtitle>A enciclopédia do Cirão!</subtitle><entry><title type="html">A EnCIROpédia precisa de vídeos</title><link href="https://enciropedia.com.br/noticias/a-enciropedia-precisa-de-videos.html" rel="alternate" type="text/html" title="A EnCIROpédia precisa de vídeos" /><published>2021-12-13T18:27:00-03:00</published><updated>2021-12-13T18:27:00-03:00</updated><id>https://enciropedia.com.br/noticias/a-enciropedia-precisa-de-videos</id><content type="html" xml:base="https://enciropedia.com.br/noticias/a-enciropedia-precisa-de-videos.html">&lt;p&gt;Atenção Turma Boa, sua ajuda é necessária!&lt;/p&gt;
+
+&lt;p&gt;Precisamos de pessoas pra ajudar no preenchimento inicial da seção de vídeos da Enciropedia!&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Já temos uma lista de vídeos prontos pra adicionar. Também aceitamos sugestões.&lt;/p&gt;
+
+&lt;p&gt;É um bom trabalho simples, e bom pra começarem a se familiarizar com o projeto.Vamos lá?&lt;/p&gt;
+
+&lt;h3 id=&quot;o-alvo&quot;&gt;O Alvo&lt;/h3&gt;
+
+&lt;p&gt;Nosso alvo é essa &lt;a href=&quot;https://www.youtube.com/playlist?list=PLUZtVUpn6Q5M5EmW7xwSHen__W_Vu0HyQ&quot;&gt;lista de entrevistas do Ciro&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;O objetivo é descrever cada um desses vídeos, de forma que o site possa gerar a lista de vídeos e uma página pra cada vídeo.&lt;/p&gt;
+
+&lt;h3 id=&quot;como-fazer-isso&quot;&gt;Como fazer isso?&lt;/h3&gt;
+
+&lt;p&gt;No projeto, existe uma &lt;a href=&quot;https://github.com/josenaldo/enciropedia/tree/main/conteudo/_videos&quot;&gt;pasta&lt;/a&gt; com arquivos de texto. Pra cada vídeo exibido na página de &lt;a href=&quot;https://www.enciropedia.com.br/videos/&quot;&gt;vídeos&lt;/a&gt;, existe um arquivo de texto, com extensão ‘.md’, na pasta &lt;a href=&quot;https://github.com/josenaldo/enciropedia/tree/main/conteudo/_videos&quot;&gt;conteudo/_videos&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;O formato do arquivo é bem simples:&lt;/p&gt;
+
+&lt;div class=&quot;language-md highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;CIRO&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;GOMES&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Inteligência&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Ltda.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Podcast&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;#244&quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;2021-08-20 20:00&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;josenaldo&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;ciro gomes&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;parlatorio&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;debate&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Ciro conversa no Inteligência Ltda.&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;video_id&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;HGBWeGCnwpU&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+
+CIRO GOMES é advogado, professor universitário, escritor e político. Ciro já
+foi prefeito de Fortaleza, governador do Ceará e deputado federal. Ele já
+tentou ser presidente 3 vezes, e em 2022 será tetra-candidato. O Vilela pensou
+em concorrer a presidente também, mas o fato de ter que sair do porão
+inviabilizou sua candidatura.
+
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- more --&amp;gt;&lt;/span&gt;
+
+Mais texto aqui. O texto de cima aparece na página de vídeos. O texto de baixo só aparece na página do vídeo.
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;No topo dos arquivos, entre a marcação &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;---&lt;/code&gt;, temos os seguintes campos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;title&lt;/strong&gt;: Título do vídeo&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;date&lt;/strong&gt;: Data de publicação do vídeo no youtube no formato ano-mes-dia hora:minuto&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;author&lt;/strong&gt;: Seu nome apelido, que usaremos no site, na lista de colaboradores. Mais abaixo falamos disso.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tags&lt;/strong&gt;: Entre colchetes, colocamos algumsa palavras chaves sobre o video. Ex: [ciro gomes, parlatorio, debate]&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;summary&lt;/strong&gt;: Uma pequena frase sobre o vídeo.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;video_id&lt;/strong&gt;: O ID do vídeo no youtube. O ID pode ser extraído direto da URL ou pode ser extraído usando a ferramneta &lt;a href=&quot;https://freemediatools.com/youtubevideoid&quot;&gt;Youtube Video ID Extractor Online&lt;/a&gt;. Basta informar, nessa ferramenta, o link do vídeo, no youtube, que ela te diz qual o ID do vídeo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/2021-12-13-a-enciropedia-precisa-de-videos-a.png&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2021-12-13-a-enciropedia-precisa-de-videos-a.png&quot; alt=&quot;Extrator de ID de vídeo&quot; class=&quot;img-fluid rounded mx-auto d-block &quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;O trabalho é pegar cada vídeo da &lt;a href=&quot;https://www.youtube.com/playlist?list=PLUZtVUpn6Q5M5EmW7xwSHen__W_Vu0HyQ&quot;&gt;lista de entrevistas do Ciro&lt;/a&gt; e criar um arquivo. O mais difícil aí é caprichar na descrição do vídeo.&lt;/p&gt;
+
+&lt;p&gt;Abaixo do segundo marcador de 3 traços (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;---&lt;/code&gt;), colocamos o texto.&lt;/p&gt;
+
+&lt;p&gt;O texto é dividido em duas partes: o excerto e o principal. A divisão é colocada após o primeiro parágrafo. Para isso, usamos o marcador &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt;, para indicar o corte do excerto. O texto que vem antes do excerto aparece na página da lista de vídeos, mas o texto que vem depois só aparece na página do vídeo.&lt;/p&gt;
+
+&lt;h3 id=&quot;onde-nós-colocamos-isso&quot;&gt;Onde nós colocamos isso?&lt;/h3&gt;
+
+&lt;p&gt;Pra enviar o arquivo, basta criar uma nova tarefa (&lt;em&gt;Issue&lt;/em&gt;) no repositório do projeto: &lt;a href=&quot;https://github.com/josenaldo/enciropedia/issues&quot;&gt;https://github.com/josenaldo/enciropedia/issues&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/2021-12-13-a-enciropedia-precisa-de-videos-b.jpg&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2021-12-13-a-enciropedia-precisa-de-videos-b.jpg&quot; alt=&quot;Extrator de ID de vídeo&quot; class=&quot;img-fluid rounded mx-auto d-block &quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Na página, clica no botão &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;New&lt;/code&gt;. Na página seguinte, no título, basta informar algo como “Adicionar vídeo NOME DO VIDEO”&lt;/p&gt;
+
+&lt;p&gt;E no campo de comentário, você informa o link do vídeo e, logo abaixo, o conteúdo do arquivo de exemplo, preenchido.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/2021-12-13-a-enciropedia-precisa-de-videos-d.png&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2021-12-13-a-enciropedia-precisa-de-videos-d.png&quot; alt=&quot;Extrator de ID de vídeo&quot; class=&quot;img-fluid rounded mx-auto d-block &quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Se quiserem um arquivo de exemplo, pra usar como template, basta pegar um na pasta &lt;a href=&quot;https://raw.githubusercontent.com/josenaldo/enciropedia/main/conteudo/_videos/ciro-no-inteligencia-limitada.md&quot;&gt;conteudo/_videos&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Depois de preenchido, basta enviar a issue. Eu irei pegar esse texto e colocar no site.&lt;/p&gt;
+
+&lt;p&gt;Pra quem já conhece o Github, posso passar o acesso pra colocar o arquivo diretamente na pasta do projeto.&lt;/p&gt;</content><author><name>josenaldo</name></author><category term="noticias" /><category term="convocação" /><category term="vídeos" /><category term="enciropedia" /><summary type="html">Atenção Turma Boa, sua ajuda é necessária! Precisamos de pessoas pra ajudar no preenchimento inicial da seção de vídeos da Enciropedia!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://enciropedia.com.br/assets/images/posts/2021-12-13-a-enciropedia-precisa-de-videos.jpg" /><media:content medium="image" url="https://enciropedia.com.br/assets/images/posts/2021-12-13-a-enciropedia-precisa-de-videos.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Como ajudar a Enciropedia</title><link href="https://enciropedia.com.br/noticias/como-ajudar.html" rel="alternate" type="text/html" title="Como ajudar a Enciropedia" /><published>2021-12-13T01:45:00-03:00</published><updated>2021-12-13T01:45:00-03:00</updated><id>https://enciropedia.com.br/noticias/como-ajudar</id><content type="html" xml:base="https://enciropedia.com.br/noticias/como-ajudar.html">&lt;p&gt;Saudações, Turma Boa! Quer ajudar a EnCIROpedia e não sabe como?&lt;/p&gt;
 
 &lt;p&gt;Chega aí que eu te explico!&lt;/p&gt;
 
@@ -17,13 +101,13 @@
 &lt;p&gt;Primeiro, você entra na &lt;a href=&quot;https://github.com/josenaldo/enciropedia/issues&quot;&gt;área de tarefas do repositório do projeto&lt;/a&gt; e escolhe uma tarefa, do tipo “Melhorar texto da página x”, para resolver.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/assets/images/posts/2021-12-13-como-ajudar-a.png&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2021-12-13-como-ajudar-a.png&quot; alt=&quot;Lista de tarefas do GitHub&quot; class=&quot;img-fluid &quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2021-12-13-como-ajudar-a.png&quot; alt=&quot;Lista de tarefas do GitHub&quot; class=&quot;img-fluid rounded mx-auto d-block &quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Daí, basta fazer um comentário na tarefa, com o texto que você quer nessa página.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/assets/images/posts/2021-12-13-como-ajudar-d.png&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/2021-12-13-como-ajudar-d.png&quot; alt=&quot;Caixa de comentário no Github&quot; class=&quot;img-fluid &quot; /&gt;
+    &lt;img src=&quot;/assets/images/posts/2021-12-13-como-ajudar-d.png&quot; alt=&quot;Caixa de comentário no Github&quot; class=&quot;img-fluid rounded mx-auto d-block &quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Pronto! Nós iremos colocar o texto sugerido no site!&lt;/p&gt;

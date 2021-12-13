@@ -1,9 +1,9 @@
 {% if include.external %}
 <a href="{{include.src}}">
-    <img src="{{include.src}}" alt="{{include.alt}}" class="img-fluid {{include.class}}">
+    <img src="{{include.src}}" alt="{{include.alt}}" class="img-fluid rounded mx-auto d-block {{include.class}}">
 </a>
 {% else %}
 <a href="{{include.src | prepend: site.baseurl}}">
-    <img src="{{include.src | prepend: site.baseurl}}" alt="{{include.alt}}" class="img-fluid {{include.class}}">
+    <img src="{{include.src | prepend: site.baseurl}}" alt="{{include.alt}}" class="img-fluid rounded mx-auto d-block {{include.class}}">
 </a>
 {% endif %}
