@@ -40,24 +40,17 @@ layout: home
         <div class="row gx-5">
             {% for post in site.posts %}
             <div class="col-lg-4 mb-5">
-                <div class="card h-100 shadow border-0">
-                    <img class="card-img-top" src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" />
-                    <div class="card-body">
-                        <div>
-                            <span class="badge bg-primary bg-gradient rounded-pill mb-2">{{post.category}}</span>
-                            <span class="small text-muted">{{ post.date | date: "%d/%m/%Y"}}</span>
-                        </div>
-                        <a class="text-decoration-none link-white stretched-link" href="{{post.url}}">
-                            <div class="h5 card-title mb-3">{{post.title}}</div>
-                        </a>
-                        <p class="card-text mb-0 text-light">
-                            {{post.excerpt}}
-                        </p>
-                    </div>
+                {%include card.html
+                    title=post.title
+                    link=post.url
+                    image=post.image
+                    category=post.category
+                    date=post.date
+                    content=post.excerpt %}
                 </div>
-            </div>
-            {% endfor %}
+                {% endfor %}
         </div>
+
         <div class="row gx-5">
             <div class="col-12">
                 <div class="text-end mb-5 mb-xl-0">
