@@ -1,0 +1,9 @@
+{% if include.external %}
+<a href="{{include.src}}">
+    <img src="{{include.src}}" alt="{{include.alt}}" class="img-fluid {{include.class}}">
+</a>
+{% else %}
+<a href="{{include.src | prepend: site.baseurl}}">
+    <img src="{{include.src | prepend: site.baseurl}}" alt="{{include.alt}}" class="img-fluid {{include.class}}">
+</a>
+{% endif %}

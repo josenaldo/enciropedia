@@ -2,10 +2,10 @@
 data: 1957
 title: Nascimento
 ordem: 10
+image: assets/images/biografia/1957-nascimento.jpg
 ---
-Em 6 de novembro de 1957, Ciro nasceu na casa da avó materna em Pindamonhangaba, no interior de São Paulo e mudou-se com a família para Sobral, no Ceará, aos 4 anos de idade.
+Ciro Ferreira Gomes, filho do cearense José Euclides Ferreira Gomes Júnior (1918-1996) e da paulista Maria José Santos (1928-2015), nasceu na casa da avó materna, em Pindamonhangaba, interior de São Paulo.
 
 <!-- more -->
 
-Seus pais são o cearense José Euclides Ferreira Gomes Júnior (1918-1996)
-e a paulista Maria José Santos (1928-2015).
+E foi o laço paterno que levou a família ao Ceará. Com apenas 4 anos, Ciro Gomes acompanhou a mudança para a cidade de Sobral, no interior do Ceará. E foi no Nordeste que esse “paulista de nascimento, mas cearense de coração”, como ele mesmo define em seu site, daria os primeiros passos para a vida pública.

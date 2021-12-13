@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://enciropedia.com.br/feed.xml" rel="self" type="application/atom+xml" /><link href="https://enciropedia.com.br/" rel="alternate" type="text/html" /><updated>2021-12-13T01:37:31-03:00</updated><id>https://enciropedia.com.br/feed.xml</id><title type="html">Enciropedia</title><subtitle>A enciclopédia do Cirão!</subtitle><entry><title type="html">Já ouviu o audiobook do Livro do Ciro Gomes?</title><link href="https://enciropedia.com.br/noticias/ja-ouviu-o-audio-book-do-livro-do-ciro-gomes.html" rel="alternate" type="text/html" title="Já ouviu o audiobook do Livro do Ciro Gomes?" /><published>2021-12-10T00:52:00-03:00</published><updated>2021-12-10T00:52:00-03:00</updated><id>https://enciropedia.com.br/noticias/ja-ouviu-o-audio-book-do-livro-do-ciro-gomes</id><content type="html" xml:base="https://enciropedia.com.br/noticias/ja-ouviu-o-audio-book-do-livro-do-ciro-gomes.html">&lt;p&gt;Saudações Turma Boa! Está sem tempo de ler o livro do Ciro Gomes? A correria não te deixa parar pra ler?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://enciropedia.com.br/feed.xml" rel="self" type="application/atom+xml" /><link href="https://enciropedia.com.br/" rel="alternate" type="text/html" /><updated>2021-12-13T03:23:29-03:00</updated><id>https://enciropedia.com.br/feed.xml</id><title type="html">Enciropedia</title><subtitle>A enciclopédia do Cirão!</subtitle><entry><title type="html">Como ajudar a Enciropedia</title><link href="https://enciropedia.com.br/noticias/como-ajudar.html" rel="alternate" type="text/html" title="Como ajudar a Enciropedia" /><published>2021-12-13T01:45:00-03:00</published><updated>2021-12-13T01:45:00-03:00</updated><id>https://enciropedia.com.br/noticias/como-ajudar</id><content type="html" xml:base="https://enciropedia.com.br/noticias/como-ajudar.html">&lt;p&gt;Saudações, Turma Boa! Quer ajudar a EnCIROpedia e não sabe como?&lt;/p&gt;
+
+&lt;p&gt;Chega aí que eu te explico!&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&quot;escrevendo-pro-site&quot;&gt;Escrevendo pro site&lt;/h2&gt;
+
+&lt;p&gt;Precisamos de muita ajuda pra escrever o conteúdo da EnCIROpedia. Principalmente sobre o &lt;a href=&quot;/pnd&quot;&gt;PND&lt;/a&gt;, sobre a &lt;a href=&quot;/biografia&quot;&gt;biografia&lt;/a&gt; do Ciro, sobre os &lt;a href=&quot;/movimentos&quot;&gt;movimentos&lt;/a&gt; pró-ciro e outras áreas.&lt;/p&gt;
+
+&lt;p&gt;De todas, a mais complexa, e que vai nos exigir mais é justamente a sessão sobre o PND.&lt;/p&gt;
+
+&lt;p&gt;O que você precisa pra ajudar?&lt;/p&gt;
+
+&lt;p&gt;Você já tem o que é preciso: um editor de texto ou um navegador.&lt;/p&gt;
+
+&lt;p&gt;Primeiro, você entra na &lt;a href=&quot;https://github.com/josenaldo/enciropedia/issues&quot;&gt;área de tarefas do repositório do projeto&lt;/a&gt; e escolhe uma tarefa, do tipo “Melhorar texto da página x”, para resolver.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/2021-12-13-como-ajudar-a.png&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2021-12-13-como-ajudar-a.png&quot; alt=&quot;Lista de tarefas do GitHub&quot; class=&quot;img-fluid &quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Daí, basta fazer um comentário na tarefa, com o texto que você quer nessa página.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/2021-12-13-como-ajudar-d.png&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/2021-12-13-como-ajudar-d.png&quot; alt=&quot;Caixa de comentário no Github&quot; class=&quot;img-fluid &quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pronto! Nós iremos colocar o texto sugerido no site!&lt;/p&gt;
+
+&lt;h2 id=&quot;enviando-imagens-e-fotos&quot;&gt;Enviando imagens e fotos&lt;/h2&gt;
+
+&lt;p&gt;Toda imagem e foto colocada no site precisa de duas coisas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ou a imagem foi devidamente autorizada pelo autor&lt;/li&gt;
+  &lt;li&gt;Ou a imagem é liberada pra uso público&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sem isso, não poderemos usar no site.&lt;/p&gt;
+
+&lt;h2 id=&quot;enviando-vídeos&quot;&gt;Enviando vídeos&lt;/h2&gt;
+
+&lt;p&gt;Se Você tem vídeos pra nos enviar, pode colocar no Github, nos comentários da tarefa. De preferência, vídeos no Youtube. Se você quiser enviar o vídeo, nós iremos colocá-lo no Youtube.&lt;/p&gt;
+
+&lt;h2 id=&quot;desenvolvendo-novas-áreas-pro-site&quot;&gt;Desenvolvendo novas áreas pro site&lt;/h2&gt;
+
+&lt;p&gt;Pra ajudar no desenvolvimento, você vai precisar do Docker na sua máquina. E um editor de código. Minha recomendação é o VSCode.&lt;/p&gt;
+
+&lt;p&gt;Pra montar o ambiente de desenvolvimento, leia o &lt;a href=&quot;https://github.com/josenaldo/enciropedia&quot;&gt;README.md&lt;/a&gt; do projeto.&lt;/p&gt;
+
+&lt;p&gt;As tecnologias usadas no projeto também estão no &lt;a href=&quot;https://github.com/josenaldo/enciropedia&quot;&gt;README.md&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;tem-dúvidas-quem-procurar&quot;&gt;Tem dúvidas? Quem procurar?&lt;/h2&gt;
+
+&lt;p&gt;Se tem dúvidas sobre como colaborar, procure por &lt;a href=&quot;https://twitter.com/VuduReverso&quot;&gt;@VuduReverso&lt;/a&gt; no Twitter. Ou envie um email para &lt;a href=&quot;mailto:josenaldo@gmail.com&quot;&gt;josenaldo@gmail.com&lt;/a&gt;.&lt;/p&gt;</content><author><name>josenaldo</name></author><category term="noticias" /><category term="ajuda" /><category term="colaboração" /><summary type="html">Saudações, Turma Boa! Quer ajudar a EnCIROpedia e não sabe como? Chega aí que eu te explico!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://enciropedia.com.br/assets/images/posts/2021-12-13-como-ajudar.jpg" /><media:content medium="image" url="https://enciropedia.com.br/assets/images/posts/2021-12-13-como-ajudar.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Já ouviu o audiobook do Livro do Ciro Gomes?</title><link href="https://enciropedia.com.br/noticias/ja-ouviu-o-audio-book-do-livro-do-ciro-gomes.html" rel="alternate" type="text/html" title="Já ouviu o audiobook do Livro do Ciro Gomes?" /><published>2021-12-10T00:52:00-03:00</published><updated>2021-12-10T00:52:00-03:00</updated><id>https://enciropedia.com.br/noticias/ja-ouviu-o-audio-book-do-livro-do-ciro-gomes</id><content type="html" xml:base="https://enciropedia.com.br/noticias/ja-ouviu-o-audio-book-do-livro-do-ciro-gomes.html">&lt;p&gt;Saudações Turma Boa! Está sem tempo de ler o livro do Ciro Gomes? A correria não te deixa parar pra ler?&lt;/p&gt;
 
 &lt;!-- more --&gt;
 
@@ -20,13 +75,7 @@
 
 &lt;p&gt;Escolha sua opção e manda ver!&lt;/p&gt;
 
-&lt;p&gt;Bons estudos!&lt;/p&gt;</content><author><name>josenaldo</name></author><category term="noticias" /><category term="audiobook" /><category term="livro" /><category term="ciro" /><category term="gomes" /><summary type="html">Saudações Turma Boa! Está sem tempo de ler o livro do Ciro Gomes? A correria não te deixa parar pra ler?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://enciropedia.com.br/assets/images/posts/2021-12-11-ja-ouviu-o-audio-book-do-livro-do-ciro-gomes.jpg" /><media:content medium="image" url="https://enciropedia.com.br/assets/images/posts/2021-12-11-ja-ouviu-o-audio-book-do-livro-do-ciro-gomes.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Como ajudar a Enciropedia</title><link href="https://enciropedia.com.br/noticias/como-ajudar.html" rel="alternate" type="text/html" title="Como ajudar a Enciropedia" /><published>2021-12-10T00:51:00-03:00</published><updated>2021-12-10T00:51:00-03:00</updated><id>https://enciropedia.com.br/noticias/como-ajudar</id><content type="html" xml:base="https://enciropedia.com.br/noticias/como-ajudar.html">&lt;p&gt;Enim non excepteur quis ut. Elit aliqua reprehenderit magna do consectetur. Labore ipsum duis est minim.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;Incididunt sit quis ad dolore. Sit ea ea nostrud voluptate reprehenderit irure adipisicing. Laboris nulla esse adipisicing amet in in sunt anim veniam anim consequat excepteur magna laborum. Commodo commodo et incididunt non adipisicing incididunt qui minim aliquip sint commodo duis minim.&lt;/p&gt;
-
-&lt;p&gt;Nostrud incididunt cillum laborum est est cillum esse nulla amet amet. Qui aliquip amet enim tempor culpa duis eiusmod deserunt. Dolor aute officia est consectetur dolore tempor quis duis enim. Ad consequat officia sint veniam laborum velit deserunt. Aliquip elit dolore elit sint proident cupidatat sunt anim ex. Pariatur esse culpa tempor nulla mollit voluptate eu quis. Consectetur sint aliquip amet enim excepteur veniam ipsum irure excepteur deserunt ea proident do ut.&lt;/p&gt;</content><author><name>josenaldo</name></author><category term="noticias" /><category term="ajuda" /><category term="colaboração" /><summary type="html">Enim non excepteur quis ut. Elit aliqua reprehenderit magna do consectetur. Labore ipsum duis est minim.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://enciropedia.com.br/assets/images/default.png" /><media:content medium="image" url="https://enciropedia.com.br/assets/images/default.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Chega mais, Turma Boa!</title><link href="https://enciropedia.com.br/noticias/chega-mais-turma-boa.html" rel="alternate" type="text/html" title="Chega mais, Turma Boa!" /><published>2021-12-08T22:00:00-03:00</published><updated>2021-12-08T22:00:00-03:00</updated><id>https://enciropedia.com.br/noticias/chega-mais-turma-boa</id><content type="html" xml:base="https://enciropedia.com.br/noticias/chega-mais-turma-boa.html">&lt;p&gt;Turma Boa, alegrem-se! Finalmente é chegada nossa EnCIROpedia! E vamos construí-la juntos!&lt;/p&gt;
+&lt;p&gt;Bons estudos!&lt;/p&gt;</content><author><name>josenaldo</name></author><category term="noticias" /><category term="audiobook" /><category term="livro" /><category term="ciro" /><category term="gomes" /><summary type="html">Saudações Turma Boa! Está sem tempo de ler o livro do Ciro Gomes? A correria não te deixa parar pra ler?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://enciropedia.com.br/assets/images/posts/2021-12-11-ja-ouviu-o-audio-book-do-livro-do-ciro-gomes.jpg" /><media:content medium="image" url="https://enciropedia.com.br/assets/images/posts/2021-12-11-ja-ouviu-o-audio-book-do-livro-do-ciro-gomes.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Chega mais, Turma Boa!</title><link href="https://enciropedia.com.br/noticias/chega-mais-turma-boa.html" rel="alternate" type="text/html" title="Chega mais, Turma Boa!" /><published>2021-12-08T22:00:00-03:00</published><updated>2021-12-08T22:00:00-03:00</updated><id>https://enciropedia.com.br/noticias/chega-mais-turma-boa</id><content type="html" xml:base="https://enciropedia.com.br/noticias/chega-mais-turma-boa.html">&lt;p&gt;Turma Boa, alegrem-se! Finalmente é chegada nossa EnCIROpedia! E vamos construí-la juntos!&lt;/p&gt;
 
 &lt;!-- more --&gt;
 
