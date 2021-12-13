@@ -92,45 +92,66 @@ defaults:
       type: "biografia"
     values:
       layout: "biografia-item"
-      image: "assets/images/default.png"
+      image:
+        path: "assets/images/default.jpg"
+        width: "1200"
+        height: "630"
   - scope:
       path: ""
       type: "colaboradores"
     values:
       layout: "colaborador"
-      image: "assets/images/default.png"
+      image:
+        path: "assets/images/default.jpg"
+        width: "1200"
+        height: "630"
   - scope:
       path: ""
       type: "movimentos"
     values:
       layout: "movimento"
-      image: "assets/images/default.png"
+      image:
+        path: "assets/images/default.jpg"
+        width: "1200"
+        height: "630"
   - scope:
       path: ""
       type: "pnd"
     values:
       layout: "pnd"
-      image: "assets/images/default.png"
+      image:
+        path: "assets/images/default.jpg"
+        width: "1200"
+        height: "630"
   - scope:
       path: ""
       type: "podcasts"
     values:
       layout: "podcast"
-      image: "assets/images/default.png"
+      image: "assets/images/default.jpg"
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      image: "assets/images/default.png"
+      image:
+        path: "assets/images/default.jpg"
+        width: "1200"
+        height: "630"
   - scope:
       path: ""
       type: "videos"
     values:
       layout: "video"
-      image: "assets/images/default.png"
+      image:
+        path: "assets/images/default.jpg"
+        width: "1200"
+        height: "630"
   - scope:
       path: ""
     values:
       layout: "default"
-      image: "assets/images/default.png"
+      image:
+        path: "assets/images/default.jpg"
+        width: "1200"
+        height: "630"
