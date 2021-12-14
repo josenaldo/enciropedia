@@ -63,3 +63,5 @@ git config --global user.name "Josenaldo de Oliveira Matos Filho"
 - Template: [https://startbootstrap.com/template/modern-business][https://startbootstrap.com/template/modern-business]
 - [Bootstrap](https://getbootstrap.com/)
 - [Jekyll](http://jekyllrb.com/)
+- [PurePajinate](https://github.com/obuisard/purePajinate)
+- [Lunr.js](https://lunrjs.com/)
