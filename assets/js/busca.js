@@ -9,7 +9,7 @@
             for (var i = 0; i < results.length; i++) { // Iterate over the results
                 var item = store[results[i].ref];
                 appendString += '<li class="mt-4 result-item">'
-                appendString += '<a href="' + item.url + '" class="result-title text-decoration-none stretched-link">'
+                appendString += '<a href="' + item.url + '" class="result-title text-decoration-none">'
                 appendString += '<h4 class="mb-0">' + item.title + '</h4>'
                 appendString += '</a>';
 
