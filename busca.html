@@ -1,0 +1,27 @@
+---
+layout: page
+title: Busca
+---
+
+<div class="card bg-dark text-white rounded-3">
+    <div class="card-body">
+        <div class="card-text text-light">
+            <form action="{{ 'busca.html' | prepend: site.baseurl}}" method="get">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Busca" id="search-box" name="query">
+                    <label for="floatingInput">Busca</label>
+                </div>
+                <input type="submit" value="search">
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<ul id="search-results"></ul>
+
+
+<!-- Lunr -->
+<script src="{{'search.json' | prepend: site.baseurl}}"></script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="{{ 'assets/js/busca.js' | prepend: site.baseurl}}"></script>
