@@ -4,29 +4,67 @@ layout: none
 window.store = {
     {% for post in site.posts %}
         "{{ post.url | slugify }}":{
-            "title"    : "{{ post.title | xml_escape }}",
-            "url"      : "{{ post.url }}",
-            "author"   : "{{ post.author | xml_escape }}",
-            "category" : "{{ post.category }}",
-            "tags"     : "{{ post.tags | join: ', ' }}",
-            "date"     : "{{ post.date }}",
-            "content": {{ post.content | strip_html | strip_newlines | jsonify }}
+            "url"           : "{{ post.url}}",
+            "absolute_url"  : "{{ post.url | absolute_url }}",
+            "title"         : "{{ post.title | xml_escape }}",
+            "author"        : "{{ post.author | xml_escape }}",
+            "category"      : "{{ post.category }}",
+            "tags"          : "{{ post.tags | join: ', ' }}",
+            "date"          : "{{ post.date }}",
+            "content"       : {{ post.content | strip_html | strip_newlines | jsonify }}
         } {% unless forloop.last %},{% endunless %}
     {% endfor %}
     ,
     {% for page in site.pages %}
-        "{{ page.url | slugify }}":{
-            "title"    : "{{ page.title | xml_escape }}",
-            "url"      : "{{ page.url }}",
-            "content": {{ page.content | strip_html | strip_newlines | jsonify }}
+        "{{ pages.url | slugify }}":{
+            "url"           : "{{ page.url}}",
+            "absolute_url"  : "{{ page.url | absolute_url }}",
+            "title"         : "{{ page.title | xml_escape }}",
+            "category"      : "páginas",
+            "tags"          : "{{ page.tags | join: ', ' }}",
+            "summary"       : "{{ page.summary | xml_escape }}",
+            "content"       : "{{ page.summary | xml_escape }}",
         } {% unless forloop.last %},{% endunless %}
     {% endfor %}
     ,
     {% for video in site.videos %}
         "{{ video.url | slugify }}":{
-            "title"    : "{{ video.title | xml_escape }}",
-            "url"      : "{{ video.url }}",
-            "content": {{ video.content | strip_html | strip_newlines | jsonify }}
+            "url"           : "{{ video.url}}",
+            "absolute_url"  : "{{ video.url | absolute_url }}",
+            "title"         : "{{ video.title | xml_escape }}",
+            "date"          : "{{ video.date }}",
+            "category"      : "{{ video.category }}",
+            "author"        : "{{ video.author | xml_escape }}",
+            "tags"          : "{{ video.tags | join: ', ' }}",
+            "summary"       : "{{ video.summary | xml_escape }}",
+            "content"       : {{ video.content | strip_html | strip_newlines | jsonify }}
+        } {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    ,
+    {% for evento in site.biografia %}
+        "{{ evento.url | slugify }}":{
+            "url"           : "{{ evento.url}}",
+            "absolute_url"  : "{{ evento.url | absolute_url }}",
+            "title"         : "{{ evento.title | xml_escape }}",
+            "category"      : "{{ evento.category }}",
+            "tags"          : "{{ evento.tags | join: ', ' }}",
+            "data"          : "{{ evento.data | xml_escape  }}",
+            "content"       : {{ evento.content | strip_html | strip_newlines | jsonify }}
+        } {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    ,
+    {% for colaborador in site.colaboradores %}
+        "{{ colaborador.url | slugify }}":{
+            "url"           : "{{ colaborador.url }}",
+            "absolute_url"  : "{{ colaborador.url | absolute_url }}",
+            "title"         : "{{ colaborador.name | xml_escape}}",
+            "short_name"    : "{{ colaborador.short_name | xml_escape }}",
+            "position"      : "{{ colaborador.position | xml_escape  }}",
+            "twitter"       : "{{ colaborador.twitter | xml_escape }}",
+            "facebook"      : "{{ colaborador.facebook | xml_escape }}",
+            "instagram"     : "{{ colaborador.instagram | xml_escape }}",
+            "github"        : "{{ colaborador.github | xml_escape }}",
+            "content"       : {{ colaborador.content | strip_html | strip_newlines | jsonify }}
         } {% unless forloop.last %},{% endunless %}
     {% endfor %}
 }

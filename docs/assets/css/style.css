@@ -2516,6 +2516,14 @@ blockquote { background-color: #222; font-style: italic; padding: 1rem; border-r
 
 @media screen and (max-width: 768px) { .timeline::before { left: 50px; } .timeline .timeline-img { left: 50px; } .timeline .timeline-content { max-width: 100%; width: auto; margin-left: 70px; } .timeline .timeline-item:nth-child(even) .timeline-content { float: none; } .timeline .timeline-item:nth-child(odd) .timeline-content::after { content: ""; position: absolute; border-style: solid; width: 0; height: 0; top: 60px; left: -15px; border-width: 10px 15px 10px 0; border-color: transparent #303030 transparent transparent; } }
 
+.search { position: relative; }
+
+.search input { text-indent: 25px; }
+
+.search .fa-search { position: absolute; top: 20px; left: 16px; }
+
+.search button { position: absolute; top: 5px; right: 5px; background: #375a7f; }
+
 .navbar { height: 80px !important; }
 
 .social ul { list-style-type: none; margin: 0; padding: 0; }

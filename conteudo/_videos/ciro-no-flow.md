@@ -1,5 +1,4 @@
 ---
-layout: video
 title: "CIRO GOMES - Flow Podcast #397"
 date: 2021-06-20 20:00
 category: videos

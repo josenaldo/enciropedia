@@ -3,22 +3,25 @@ layout: page
 title: Busca
 ---
 
-<div class="card bg-dark text-white rounded-3">
+<div class="card bg-dark text-white rounded-3 mb-5">
     <div class="card-body">
         <div class="card-text text-light">
-            <form action="{{ 'busca.html' | prepend: site.baseurl}}" method="get">
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="Busca" id="search-box" name="query">
-                    <label for="floatingInput">Busca</label>
+            <div class="row height d-flex justify-content-center align-items-center">
+                <div class="col-md-6">
+                    <form class="d-flex" action="{{ 'busca.html' | prepend: site.baseurl}}" method="get">
+                        <input class="form-control me-2" type="search" id="search-box-2" name="query"
+                            aria-label="Busca">
+                        <button class="btn btn-outline-success" type="submit">Busca</button>
+                    </form>
                 </div>
-                <input type="submit" value="search">
-            </form>
+            </div>
+
         </div>
     </div>
 </div>
 
 
-<ul id="search-results"></ul>
+<ul class="list-unstyled" id="search-results"></ul>
 
 
 <!-- Lunr -->
