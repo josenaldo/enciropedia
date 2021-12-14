@@ -154,6 +154,14 @@
         }
     }
 
+    var searchTerm = getQueryVariable('query');
+    if (searchTerm) {
+        document.getElementById('search-loading').classList.add('visible');
+        document.getElementById('search-loading').classList.remove('invisible');
+    } else {
+        document.getElementById('search-loading').classList.add('invisible');
+        document.getElementById('search-loading').classList.remove('visible');
+    }
     // window.setTimeout(init, 5000);
     init();
 })();
