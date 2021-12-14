@@ -7,18 +7,19 @@
 
             for (var i = 0; i < results.length; i++) { // Iterate over the results
                 var item = store[results[i].ref];
-                appendString += '<li class="mt-4">'
-                appendString += '<a href="' + item.url + '" class="text-decoration-none">'
-                appendString += '<h4 class="mb-0">' + item.title + '</h4>'
-                appendString += '</a>';
+                appendString += '<li class="mt-4 result-item">'
+                appendString +=     '<a href="' + item.url + '" class="result-title text-decoration-none">'
+                appendString +=         '<h4 class="mb-0">' + item.title + '</h4>'
+                appendString +=     '</a>';
 
-                appendString += '<p class="small text-muted mb-0 ps-3">' + item.absolute_url + '</p>';
+                appendString +=     '<p class="result-url small text-muted mb-0 ps-3">' + item.absolute_url + '</p>';
 
-                appendString += '<p class="mb-0 ps-3">' + item.content.substring(0, 150) + '...</p>'
+                appendString +=     '<p class="result-content mb-0 ps-3">' + item.content.substring(0, 150) + '...</p>'
                 appendString += '</li>';
             }
 
             searchResults.innerHTML = appendString;
+
         } else {
             searchResults.innerHTML = '<li>Nenhum resultado encontrado</li>';
         }
@@ -37,6 +38,49 @@
         }
     }
 
+    function showPagination() {
+        var myPagination = new purePajinate({
+            itemsPerPage: 10,
+            wrapAround: false,
+            pageLinksToDisplay: 5,
+            navLabelFirst: '<<',
+            navLabelPrev: '&laquo;',
+            navLabelNext: '&raquo;',
+            navLabelLast: '>>',
+            navOrder: ["first", "prev", "num", "next", "last"],
+            showFirstLast: false,
+            showPrevNext: true,
+            hideOnSmall: true,
+            containerSelector: '#search-results',
+            itemSelector: '.result-item',
+            navigationSelector: '.page_navigation',
+            defaultClass: 'page-item',
+            activeClass: "active",
+            disabledClass: "disabled",
+            onPageDisplayed: function onPageDisplayed() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        });
+
+    }
+
+    function ready(callbackFunc) {
+        if (document.readyState !== 'loading') {
+            // Document is already ready, call the callback directly
+            callbackFunc();
+        } else if (document.addEventListener) {
+            // All modern browsers to register DOMContentLoaded
+            document.addEventListener('DOMContentLoaded', callbackFunc);
+        } else {
+            // Old IE browsers
+            document.attachEvent('onreadystatechange', function() {
+                if (document.readyState === 'complete') {
+                    callbackFunc();
+                }
+            });
+        }
+    }
+
     var searchTerm = getQueryVariable('query');
 
     if (searchTerm) {
@@ -52,7 +96,7 @@
             this.field('category');
             this.field('content');
 
-            for (var key in window.store) { 
+            for (var key in window.store) {
                 this.add({
                     'id': key,
                     'title': window.store[key].title,
@@ -66,5 +110,18 @@
         var results = idx.search(searchTerm); // Get lunr to perform a search
         displaySearchResults(results, window.store); // We'll write this in the next section
 
+        ready(function() {
+            showPagination();
+            var list = document.querySelector('#pagination-wrapper ul');
+            list.classList.add("pagination");
+            // list.classList.add("pagination-lg");
+            list.classList.add("justify-content-center");
+
+            let links = list.querySelectorAll("li a");
+
+            links.forEach(function(el) {
+                el.classList.add("page-link")
+            })
+        });
     }
 })();
