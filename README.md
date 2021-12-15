@@ -16,6 +16,13 @@ Após a construção da imagem, lembre-se de verificar se o compartilhamento de 
 docker run --rm -it -v "e:\repositorios\enciropedia:/srv/jekyll" -v "e:\repositorios\enciropedia\vendor\bundle:/usr/local/bundle" -p 4000:4000 -p 35729:35729 --name enciropedia enciropedia bash
 ```
 
+Se estiver no Linux:
+
+```shell
+docker run --rm -it -v ".:/srv/jekyll" -v "./vendor/bundle:/usr/local/bundle" -p 4000:4000 -p 35729:35729 --name enciropedia enciropedia bash
+```
+
+
 Se, após a execução desse comando, ocorrer algum problema com o docker em relação a diretórios já existente, atualize o docker e reinicie a máquina.
 
 Talvez, reiniciar o docker-machine ou o próprio docker funcione. Teste essa hipótese.
