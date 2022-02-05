@@ -27,9 +27,9 @@ Uma vez que o projeto foi clonado, abra um terminal na pasta do projeto e execut
 docker build -t enciropedia .
 ```
 
-Após a construção da imagem, lembre-se de verificar se o compartilhamento de arquivos está ligado, para a pasa onde está o projeto.
+Após a construção da imagem, lembre-se de verificar se o compartilhamento de arquivos está ligado, para a pasta onde está o projeto.
 
-Esse comando deve ser executado apenas uma vez. A não ser, claro, que vocÊ exclua a imagem do docker.
+Esse comando deve ser executado apenas uma vez. A não ser, claro, que você exclua a imagem do docker.
 
 ### Execução do contêiner
 
